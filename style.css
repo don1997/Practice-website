@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oswald&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e0;
+    
+}
+
+.container{
+    height: auto;
+    width: auto;
+    
+}
+
+.header{
+    padding: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    border-top:0px;
+    border-left:0px;
+    border-right: 0px;
+    border-style: solid;
+    background-color: #FFAE75;
+    
+
+     
+
+}
+
+#upperlinks{
+    padding: 10px;
+    background-color: #FFAE75;
+
+}
+
+#upperlinks a:nth-child(n){
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-weight: bold;
+    color: black;
+    background-color: #FFAE75;
+
+}
+
+#logo{
+    
+    width: 10%;
+    background-color: #FFAE75;
+
+}
+
+.main { 
+    display: block;
+    
+}
+
+.content {
+    margin: 2em auto;
+   
+}
+
+.centered {
+    max-width: 55em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#intro {
+    font-size: 80px;
+    font-family: "comfortaa";
+    
+    
+    
+    
+}
+
+#apple a:nth-child(n) {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(2, 175, 123);
+    font-family: "Oswald";
+    font-weight: 500;
+    margin: 10px;
+    padding: 20x;
+    
+}
+#apple{
+    border-bottom: solid 2px black;
+    margin: 20px;
+    padding: 20px;
+}
+span, li {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex start;
+    align-items: center;
+    align-content: space-around;
+    font-size: 25px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    
+    
+    
+    
+}
+
+li {
+    border-bottom: solid 2px black;
+    padding: 30px;
+    
+}
+
+
+.boximage {
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+footer {
+    padding: 20px;
+    
+    
+   
+    border-top: solid 1px black;
+    font-family: "Oswald";
+    font-weight: 900;
+    background-color: #FFAE75;
+
+
+    
+}
